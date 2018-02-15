@@ -53,7 +53,7 @@
             text-decoration: none;
             padding: 5px 10px;
             border-right: #777777 solid 1px;
-            
+
         }
 
         .topnav a:hover {
@@ -73,13 +73,16 @@
             text-align: center;
             font-size: 14;
             font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+        }
 
+        hr {
+            margin-bottom: 15px;
         }
 
         .content {
             background-color: #ffffff;
             width: 650px;
-            height: 475px;
+            height: 400px;
             border: 25px solid #dddddd;
             margin: 5px;
             padding: 5px;
@@ -87,6 +90,20 @@
             float: left;
             margin-left: 50px;
         }
+
+        #button {
+            background-color: #4aaaa5;
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+        }
+
 
         img {
             float: left;
@@ -133,36 +150,35 @@
         <h1>NICOLE JOHNSON</h1>
         <div class="topnav">
 
-                <a href="file:///C:/Users/ni/Desktop/Basic-Portfolio/contact.html">Contact</a>
-                <a href="file:///C:/Users/ni/Desktop/Basic-Portfolio/portfolio.html">Portfolio</a>
+                <a href="#content" href="file:///C:/Users/ni/Desktop/Basic-Portfolio/contact.html">Contact</a>
+            <a href="file:///C:/Users/ni/Desktop/Basic-Portfolio/portfolio.html">Portfolio</a>
             <a class="active" href="file:///C:/Users/ni/Desktop/Basic-Portfolio/index.html">About</a>
-            
             
 
         </div>
     </div>
 
 
-
-
     <p>
         <div class="content">
-            <h2>About Me</h2>
+            <h2>Contact Me</h2>
+
             <hr>
 
-            <img src="http://i65.tinypic.com/i77gut.png" />
-            <br> Welcome to my page! A little about myself: My name is Nicole and I reign from the frozen tundra called Wisconsin.
-            I grew up there during my childhood and continued my college education at the University of Wisconsin-Lacrosse
-            where I majored in International Business, Finance, and Spanish. My interests led me down a bit of a different
-            path into international relations and defense policy which I enjoy very much.
-            <br>
-            <br> I've been fortuante to have had many opportunities to travel often for academic and professional purposes. I
-            have lived in Spain and Italy and have traveled far and wide throughout Europe, South America, Africa, and the
-            Middle East. My curiosity and love of learning has now led me to my current adventure at GW Coding Bootcamp.
-            I'm excited to be learning this new skillset and hope to be able to incorporate it in my future endeavors.
-            <br>
-            <br> A few of my interests/hobbies include a huge love for dogs, reading, snowboarding, camping, trying new foods,
-            traveling, and hiking.
+            <form action="">
+                <fieldset>
+                    Name:<br><input type="text" size="90">
+                    <br> E-mail:<br><input type="text" size "90">
+                    <br>
+                     Message:<br><input type="text" size "90">
+                </fieldset>
+            </form>
+
+            <br><br>
+
+            <form action="">
+                <input type="button" value="Submit" id="button">
+            </form>
 
         </div>
 
